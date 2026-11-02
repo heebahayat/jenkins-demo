@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node.js and Jenkins CI/CD demo
 
 This demo uses `app.js` for a small HTTP server and `server.json` for its host, port, and response message. Jenkins prints both source files in the build log, tests the app, packages and deploys the files into its workspace, and runs the tests against the deployed copy.
@@ -53,3 +54,6 @@ git push
 Configure your Git provider's webhook to reach Jenkins and enable the matching webhook trigger under **Build Triggers**. If inbound webhooks are unavailable, configure **Poll SCM** instead.
 
 This demo deploys only into the Jenkins workspace. For a real deployment, replace the deploy stage with your environment's deployment mechanism and store credentials in Jenkins Credentials, not in source control.
+=======
+# jenkins-demo
+>>>>>>> 5ee1e270c0a44f09d9faf4b63a786705938f1111
